@@ -1,7 +1,7 @@
 # OSX
 #
 .DS_Store
-
+*.mov
 # Xcode
 #
 build/
