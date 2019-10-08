@@ -44,10 +44,17 @@ const DataContextProvider = props => {
   const selectItem = id => {
     const item = state.data[id];
     item.selected = !item.selected;
-    setState(oldState => {
-      const dataCopy = { ...oldState.data };
-      dataCopy[id] = { ...item };
-      return { ...oldState, data: { ...dataCopy } };
+    // setState(oldState => {
+    //   const dataCopy = { ...oldState.data };
+    //   dataCopy[id] = { ...item };
+    //   return { ...oldState, data: { ...dataCopy } };
+    // });
+    setState({
+      ...state,
+      data: {
+        ...state.data,
+        [item.id]: item,
+      },
     });
   };
 
@@ -64,7 +71,7 @@ const DataContextProvider = props => {
 };
 
 const Main = ({ navigation }) => {
-  const { data, selectItem } = useContext(DataContext);
+  const { data } = useContext(DataContext);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -73,11 +80,9 @@ const Main = ({ navigation }) => {
         renderItem={({ item }) => (
           <Item
             item={item}
-            onSelect={selectItem}
             handleShowDetails={id => {
               navigation.navigate('Details', {
                 id,
-                onSelect: selectItem,
               });
             }}
           />
@@ -88,13 +93,14 @@ const Main = ({ navigation }) => {
   );
 };
 
-function Item({ item, onSelect, handleShowDetails }) {
+function Item({ item, handleShowDetails }) {
   const { id, title, selected } = item;
+  const { selectItem } = useContext(DataContext);
   return useMemo(() => {
     return (
       <TouchableOpacity
         onPress={() => {
-          onSelect(id);
+          selectItem(id);
         }}
         style={[
           styles.item,
@@ -115,12 +121,14 @@ function Item({ item, onSelect, handleShowDetails }) {
 }
 
 const Details = ({
-  navigation: {
-    state: {
-      params: { id },
-    },
-  },
+  navigation,
+  // navigation: {
+  //   state: {
+  //     params: { id },
+  //   },
+  // },
 }) => {
+  const id = navigation.state.params.id;
   const { data, selectItem } = useContext(DataContext);
   const item = data[id];
 
