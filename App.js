@@ -17,55 +17,67 @@ import {
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
-const DATA = [
-  {
+const DATA = {
+  'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba': {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
     title: 'First Item',
     selected: false,
   },
-  {
+  '3ac68afc-c605-48d3-a4f8-fbd91aa97f63': {
     id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
     title: 'Second Item',
     selected: false,
   },
-  {
+  '58694a0f-3da1-471f-bd96-145571e29d72': {
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
     title: 'Third Item',
     selected: false,
   },
-];
+};
+
+const DataContext = createContext({
+  data: [],
+  selectItem: () => {},
+});
+
+const DataContextProvider = props => {
+  const selectItem = id => {
+    const item = state.data[id];
+    item.selected = !item.selected;
+    setState(oldState => {
+      const dataCopy = { ...oldState.data };
+      dataCopy[id] = { ...item };
+      return { ...oldState, data: { ...dataCopy } };
+    });
+  };
+
+  const initialState = {
+    data: DATA,
+    selectItem: selectItem,
+  };
+
+  const [state, setState] = useState(initialState);
+
+  return (
+    <DataContext.Provider value={state}>{props.children}</DataContext.Provider>
+  );
+};
 
 const Main = ({ navigation }) => {
-  const [data, setData] = useState(DATA);
-
-  const onSelect = useRef(id => {
-    setData(oldData => {
-      return [
-        ...oldData.map(item => {
-          if (id === item.id) {
-            return {
-              ...item,
-              selected: !item.selected,
-            };
-          }
-          return item;
-        }),
-      ];
-    });
-  });
+  const { data, selectItem } = useContext(DataContext);
 
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        data={data}
+        data={Object.values(data)}
         renderItem={({ item }) => (
           <Item
             item={item}
-            onSelect={onSelect.current}
-            handleShowDetails={item => {
+            onSelect={selectItem}
+            handleShowDetails={id => {
               navigation.navigate('Details', {
-                item,
-                onSelect: onSelect.current,
+                id,
+                onSelect: selectItem,
               });
             }}
           />
@@ -79,10 +91,11 @@ const Main = ({ navigation }) => {
 function Item({ item, onSelect, handleShowDetails }) {
   const { id, title, selected } = item;
   return useMemo(() => {
-    console.log('L44 "item is rendering" ===', id);
     return (
       <TouchableOpacity
-        onPress={() => onSelect(id)}
+        onPress={() => {
+          onSelect(id);
+        }}
         style={[
           styles.item,
           { backgroundColor: selected ? '#6e3b6e' : '#f9c2ff' },
@@ -94,7 +107,7 @@ function Item({ item, onSelect, handleShowDetails }) {
             padding: 18,
           }}>
           <Text style={styles.title}>{title}</Text>
-          <Text onPress={() => handleShowDetails(item)}>Details</Text>
+          <Text onPress={() => handleShowDetails(id)}>Details</Text>
         </View>
       </TouchableOpacity>
     );
@@ -104,19 +117,24 @@ function Item({ item, onSelect, handleShowDetails }) {
 const Details = ({
   navigation: {
     state: {
-      params: { item, onSelect },
+      params: { id },
     },
   },
 }) => {
-  const [detailsSelected, setDetailsSelected] = useState(item.selected);
+  const { data, selectItem } = useContext(DataContext);
+  const item = data[id];
+
   return (
-    <View style={styles.centered}>
-      <Text style={styles.largeText}>{`Details for ID: ${item.id}`}</Text>
+    <View
+      style={[
+        styles.centered,
+        { backgroundColor: item.selected ? '#6e3b6e' : '#f9c2ff' },
+      ]}>
+      <Text style={styles.title}>{`Details for Item: ${item.title}`}</Text>
       <Text
         onPress={() => {
-          onSelect(item.id);
-          setDetailsSelected(!detailsSelected);
-        }}>{`Is selected: ${detailsSelected}\n\n(click me to toggle selected)`}</Text>
+          selectItem(item.id);
+        }}>{`Is selected: ${item.selected}\n\n(click me to toggle selected)`}</Text>
     </View>
   );
 };
@@ -126,7 +144,13 @@ const StackNavigation = createStackNavigator({
   Details: Details,
 });
 
-const App = createAppContainer(StackNavigation);
+const Container = createAppContainer(StackNavigation);
+
+const App = () => (
+  <DataContextProvider>
+    <Container />
+  </DataContextProvider>
+);
 
 export default App;
 
