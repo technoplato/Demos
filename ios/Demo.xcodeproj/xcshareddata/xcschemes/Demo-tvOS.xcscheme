@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ShareDrawerState-tvOS.app"
-               BlueprintName = "ShareDrawerState-tvOS"
-               ReferencedContainer = "container:ShareDrawerState.xcodeproj">
+               BuildableName = "Demo-tvOS.app"
+               BlueprintName = "Demo-tvOS"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ShareDrawerState-tvOSTests.xctest"
-               BlueprintName = "ShareDrawerState-tvOSTests"
-               ReferencedContainer = "container:ShareDrawerState.xcodeproj">
+               BuildableName = "Demo-tvOSTests.xctest"
+               BlueprintName = "Demo-tvOSTests"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ShareDrawerState-tvOSTests.xctest"
-               BlueprintName = "ShareDrawerState-tvOSTests"
-               ReferencedContainer = "container:ShareDrawerState.xcodeproj">
+               BuildableName = "Demo-tvOSTests.xctest"
+               BlueprintName = "Demo-tvOSTests"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ShareDrawerState-tvOS.app"
-            BlueprintName = "ShareDrawerState-tvOS"
-            ReferencedContainer = "container:ShareDrawerState.xcodeproj">
+            BuildableName = "Demo-tvOS.app"
+            BlueprintName = "Demo-tvOS"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ShareDrawerState-tvOS.app"
-            BlueprintName = "ShareDrawerState-tvOS"
-            ReferencedContainer = "container:ShareDrawerState.xcodeproj">
+            BuildableName = "Demo-tvOS.app"
+            BlueprintName = "Demo-tvOS"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ShareDrawerState-tvOS.app"
-            BlueprintName = "ShareDrawerState-tvOS"
-            ReferencedContainer = "container:ShareDrawerState.xcodeproj">
+            BuildableName = "Demo-tvOS.app"
+            BlueprintName = "Demo-tvOS"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

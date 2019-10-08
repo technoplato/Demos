@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ShareDrawerStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ShareDrawerStateTests.m */; };
+		00E356F31AD99517003FC87E /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DemoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1FCF2361FBC1ECB7939C42E1 /* libPods-ShareDrawerState.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC406E99AFD6D56479FD4A1C /* libPods-ShareDrawerState.a */; };
+		1FCF2361FBC1ECB7939C42E1 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC406E99AFD6D56479FD4A1C /* libPods-Demo.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ShareDrawerStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ShareDrawerStateTests.m */; };
-		728D3E4B2B9712B9F5923DBE /* libPods-ShareDrawerStateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2056C2224BDFFDB2DCD847 /* libPods-ShareDrawerStateTests.a */; };
-		E636CE8312B497D2CA289FB6 /* libPods-ShareDrawerState-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D21F51E532F51619E4212A2 /* libPods-ShareDrawerState-tvOSTests.a */; };
-		EC82A6E20064265D4BBA5FBA /* libPods-ShareDrawerState-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8339CBFC41138FEED5EE7BB6 /* libPods-ShareDrawerState-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DemoTests.m */; };
+		728D3E4B2B9712B9F5923DBE /* libPods-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2056C2224BDFFDB2DCD847 /* libPods-DemoTests.a */; };
+		E636CE8312B497D2CA289FB6 /* libPods-Demo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D21F51E532F51619E4212A2 /* libPods-Demo-tvOSTests.a */; };
+		EC82A6E20064265D4BBA5FBA /* libPods-Demo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8339CBFC41138FEED5EE7BB6 /* libPods-Demo-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ShareDrawerState;
+			remoteInfo = Demo;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ShareDrawerState-tvOS";
+			remoteInfo = "Demo-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ShareDrawerStateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareDrawerStateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ShareDrawerStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareDrawerStateTests.m; sourceTree = "<group>"; };
-		0E2056C2224BDFFDB2DCD847 /* libPods-ShareDrawerStateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareDrawerStateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* ShareDrawerState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareDrawerState.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShareDrawerState/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShareDrawerState/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		0E2056C2224BDFFDB2DCD847 /* libPods-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Demo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Demo/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ShareDrawerState/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShareDrawerState/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ShareDrawerState/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* ShareDrawerState-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareDrawerState-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ShareDrawerState-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShareDrawerState-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FE70D9764DCFF1F8F4D55CE /* Pods-ShareDrawerState.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerState.release.xcconfig"; path = "Target Support Files/Pods-ShareDrawerState/Pods-ShareDrawerState.release.xcconfig"; sourceTree = "<group>"; };
-		4D21F51E532F51619E4212A2 /* libPods-ShareDrawerState-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareDrawerState-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2B0B5105370790E3DB90C4 /* Pods-ShareDrawerState-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerState-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ShareDrawerState-tvOSTests/Pods-ShareDrawerState-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		8339CBFC41138FEED5EE7BB6 /* libPods-ShareDrawerState-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareDrawerState-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9AA9078A5098D0ABF2A195A /* Pods-ShareDrawerStateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerStateTests.release.xcconfig"; path = "Target Support Files/Pods-ShareDrawerStateTests/Pods-ShareDrawerStateTests.release.xcconfig"; sourceTree = "<group>"; };
-		C759B902F8F7CFF6D0F96217 /* Pods-ShareDrawerState-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerState-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ShareDrawerState-tvOS/Pods-ShareDrawerState-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C99346CD39B69135CE27317C /* Pods-ShareDrawerStateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerStateTests.debug.xcconfig"; path = "Target Support Files/Pods-ShareDrawerStateTests/Pods-ShareDrawerStateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC406E99AFD6D56479FD4A1C /* libPods-ShareDrawerState.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareDrawerState.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E598376840D83D16B91F6A04 /* Pods-ShareDrawerState-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerState-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ShareDrawerState-tvOSTests/Pods-ShareDrawerState-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC556A68B844346F61C6BD0E /* Pods-ShareDrawerState.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerState.debug.xcconfig"; path = "Target Support Files/Pods-ShareDrawerState/Pods-ShareDrawerState.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demo/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Demo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Demo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE70D9764DCFF1F8F4D55CE /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		4D21F51E532F51619E4212A2 /* libPods-Demo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2B0B5105370790E3DB90C4 /* Pods-Demo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Demo-tvOSTests/Pods-Demo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8339CBFC41138FEED5EE7BB6 /* libPods-Demo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AA9078A5098D0ABF2A195A /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-DemoTests/Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C759B902F8F7CFF6D0F96217 /* Pods-Demo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Demo-tvOS/Pods-Demo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C99346CD39B69135CE27317C /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoTests/Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC406E99AFD6D56479FD4A1C /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E598376840D83D16B91F6A04 /* Pods-Demo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Demo-tvOSTests/Pods-Demo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC556A68B844346F61C6BD0E /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FF44F06A08C4EF3ADDE320DF /* Pods-ShareDrawerState-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDrawerState-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ShareDrawerState-tvOS/Pods-ShareDrawerState-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FF44F06A08C4EF3ADDE320DF /* Pods-Demo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Demo-tvOS/Pods-Demo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728D3E4B2B9712B9F5923DBE /* libPods-ShareDrawerStateTests.a in Frameworks */,
+				728D3E4B2B9712B9F5923DBE /* libPods-DemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCF2361FBC1ECB7939C42E1 /* libPods-ShareDrawerState.a in Frameworks */,
+				1FCF2361FBC1ECB7939C42E1 /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC82A6E20064265D4BBA5FBA /* libPods-ShareDrawerState-tvOS.a in Frameworks */,
+				EC82A6E20064265D4BBA5FBA /* libPods-Demo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E636CE8312B497D2CA289FB6 /* libPods-ShareDrawerState-tvOSTests.a in Frameworks */,
+				E636CE8312B497D2CA289FB6 /* libPods-Demo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ShareDrawerStateTests */ = {
+		00E356EF1AD99517003FC87E /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ShareDrawerStateTests.m */,
+				00E356F21AD99517003FC87E /* DemoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ShareDrawerStateTests;
+			path = DemoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ShareDrawerState */ = {
+		13B07FAE1A68108700A75B9A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ShareDrawerState;
+			name = Demo;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				CC406E99AFD6D56479FD4A1C /* libPods-ShareDrawerState.a */,
-				8339CBFC41138FEED5EE7BB6 /* libPods-ShareDrawerState-tvOS.a */,
-				4D21F51E532F51619E4212A2 /* libPods-ShareDrawerState-tvOSTests.a */,
-				0E2056C2224BDFFDB2DCD847 /* libPods-ShareDrawerStateTests.a */,
+				CC406E99AFD6D56479FD4A1C /* libPods-Demo.a */,
+				8339CBFC41138FEED5EE7BB6 /* libPods-Demo-tvOS.a */,
+				4D21F51E532F51619E4212A2 /* libPods-Demo-tvOSTests.a */,
+				0E2056C2224BDFFDB2DCD847 /* libPods-DemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		6CBD9EE85ADEFAB5CF13AC9F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EC556A68B844346F61C6BD0E /* Pods-ShareDrawerState.debug.xcconfig */,
-				3FE70D9764DCFF1F8F4D55CE /* Pods-ShareDrawerState.release.xcconfig */,
-				C759B902F8F7CFF6D0F96217 /* Pods-ShareDrawerState-tvOS.debug.xcconfig */,
-				FF44F06A08C4EF3ADDE320DF /* Pods-ShareDrawerState-tvOS.release.xcconfig */,
-				E598376840D83D16B91F6A04 /* Pods-ShareDrawerState-tvOSTests.debug.xcconfig */,
-				5B2B0B5105370790E3DB90C4 /* Pods-ShareDrawerState-tvOSTests.release.xcconfig */,
-				C99346CD39B69135CE27317C /* Pods-ShareDrawerStateTests.debug.xcconfig */,
-				B9AA9078A5098D0ABF2A195A /* Pods-ShareDrawerStateTests.release.xcconfig */,
+				EC556A68B844346F61C6BD0E /* Pods-Demo.debug.xcconfig */,
+				3FE70D9764DCFF1F8F4D55CE /* Pods-Demo.release.xcconfig */,
+				C759B902F8F7CFF6D0F96217 /* Pods-Demo-tvOS.debug.xcconfig */,
+				FF44F06A08C4EF3ADDE320DF /* Pods-Demo-tvOS.release.xcconfig */,
+				E598376840D83D16B91F6A04 /* Pods-Demo-tvOSTests.debug.xcconfig */,
+				5B2B0B5105370790E3DB90C4 /* Pods-Demo-tvOSTests.release.xcconfig */,
+				C99346CD39B69135CE27317C /* Pods-DemoTests.debug.xcconfig */,
+				B9AA9078A5098D0ABF2A195A /* Pods-DemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ShareDrawerState */,
+				13B07FAE1A68108700A75B9A /* Demo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ShareDrawerStateTests */,
+				00E356EF1AD99517003FC87E /* DemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				6CBD9EE85ADEFAB5CF13AC9F /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ShareDrawerState.app */,
-				00E356EE1AD99517003FC87E /* ShareDrawerStateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ShareDrawerState-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ShareDrawerState-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Demo.app */,
+				00E356EE1AD99517003FC87E /* DemoTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Demo-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Demo-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ShareDrawerStateTests */ = {
+		00E356ED1AD99517003FC87E /* DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ShareDrawerStateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DemoTests" */;
 			buildPhases = (
 				734DCC06D523BAF4DE97075C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ShareDrawerStateTests;
-			productName = ShareDrawerStateTests;
-			productReference = 00E356EE1AD99517003FC87E /* ShareDrawerStateTests.xctest */;
+			name = DemoTests;
+			productName = DemoTests;
+			productReference = 00E356EE1AD99517003FC87E /* DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ShareDrawerState */ = {
+		13B07F861A680F5B00A75B9A /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShareDrawerState" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				A5588CA725FF34DB8A6CA130 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = ShareDrawerState;
-			productName = ShareDrawerState;
-			productReference = 13B07F961A680F5B00A75B9A /* ShareDrawerState.app */;
+			name = Demo;
+			productName = Demo;
+			productReference = 13B07F961A680F5B00A75B9A /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ShareDrawerState-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Demo-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ShareDrawerState-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Demo-tvOS" */;
 			buildPhases = (
 				A87D0F1DF35ACB5E07E921C6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "ShareDrawerState-tvOS";
-			productName = "ShareDrawerState-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ShareDrawerState-tvOS.app */;
+			name = "Demo-tvOS";
+			productName = "Demo-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Demo-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ShareDrawerState-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Demo-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ShareDrawerState-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Demo-tvOSTests" */;
 			buildPhases = (
 				C3B34A2EE3FF171ACC26F804 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ShareDrawerState-tvOSTests";
-			productName = "ShareDrawerState-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ShareDrawerState-tvOSTests.xctest */;
+			name = "Demo-tvOSTests";
+			productName = "Demo-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Demo-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ShareDrawerState" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ShareDrawerState */,
-				00E356ED1AD99517003FC87E /* ShareDrawerStateTests */,
-				2D02E47A1E0B4A5D006451C7 /* ShareDrawerState-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ShareDrawerState-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Demo */,
+				00E356ED1AD99517003FC87E /* DemoTests */,
+				2D02E47A1E0B4A5D006451C7 /* Demo-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Demo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShareDrawerStateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShareDrawerState-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShareDrawerState-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Demo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShareDrawerState-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Demo-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ShareDrawerStateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ShareDrawerStateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ShareDrawerState */;
+			target = 13B07F861A680F5B00A75B9A /* Demo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ShareDrawerState-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Demo-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ShareDrawerState;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C99346CD39B69135CE27317C /* Pods-ShareDrawerStateTests.debug.xcconfig */;
+			baseConfigurationReference = C99346CD39B69135CE27317C /* Pods-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ShareDrawerStateTests/Info.plist;
+				INFOPLIST_FILE = DemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareDrawerState.app/ShareDrawerState";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9AA9078A5098D0ABF2A195A /* Pods-ShareDrawerStateTests.release.xcconfig */;
+			baseConfigurationReference = B9AA9078A5098D0ABF2A195A /* Pods-DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ShareDrawerStateTests/Info.plist;
+				INFOPLIST_FILE = DemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareDrawerState.app/ShareDrawerState";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC556A68B844346F61C6BD0E /* Pods-ShareDrawerState.debug.xcconfig */;
+			baseConfigurationReference = EC556A68B844346F61C6BD0E /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = ShareDrawerState/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ShareDrawerState;
+				PRODUCT_NAME = Demo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FE70D9764DCFF1F8F4D55CE /* Pods-ShareDrawerState.release.xcconfig */;
+			baseConfigurationReference = 3FE70D9764DCFF1F8F4D55CE /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ShareDrawerState/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ShareDrawerState;
+				PRODUCT_NAME = Demo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C759B902F8F7CFF6D0F96217 /* Pods-ShareDrawerState-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C759B902F8F7CFF6D0F96217 /* Pods-Demo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ShareDrawerState-tvOS/Info.plist";
+				INFOPLIST_FILE = "Demo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ShareDrawerState-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Demo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF44F06A08C4EF3ADDE320DF /* Pods-ShareDrawerState-tvOS.release.xcconfig */;
+			baseConfigurationReference = FF44F06A08C4EF3ADDE320DF /* Pods-Demo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ShareDrawerState-tvOS/Info.plist";
+				INFOPLIST_FILE = "Demo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ShareDrawerState-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Demo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E598376840D83D16B91F6A04 /* Pods-ShareDrawerState-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = E598376840D83D16B91F6A04 /* Pods-Demo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ShareDrawerState-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Demo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ShareDrawerState-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Demo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareDrawerState-tvOS.app/ShareDrawerState-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-tvOS.app/Demo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B2B0B5105370790E3DB90C4 /* Pods-ShareDrawerState-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 5B2B0B5105370790E3DB90C4 /* Pods-Demo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ShareDrawerState-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Demo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ShareDrawerState-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Demo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareDrawerState-tvOS.app/ShareDrawerState-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo-tvOS.app/Demo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ShareDrawerStateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShareDrawerState" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ShareDrawerState-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Demo-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ShareDrawerState-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Demo-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ShareDrawerState" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

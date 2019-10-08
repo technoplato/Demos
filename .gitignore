@@ -1,7 +1,6 @@
 # OSX
 #
 .DS_Store
-*.mov
 # Xcode
 #
 build/
@@ -57,3 +56,6 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Video tutorials for demos
+videos/
