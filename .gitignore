@@ -57,3 +57,8 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Video tutorials for demos
+videos/
+*.mov
+*.mp4
